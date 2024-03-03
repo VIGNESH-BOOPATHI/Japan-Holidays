@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Public Holidays In japan</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Public Holidays In Japan<sub> 1974 to 2074</sub></h1>
+    
+    <form id="yearForm">
+      <div class="form-group">
+        <label for="yearInput">Enter Year:</label>
+        <input type="number" class="form-control" id="yearInput" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Fetch Holidays</button>
+    </form>
+    <div class="holiday-list mt-4"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
